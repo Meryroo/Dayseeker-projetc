@@ -1,0 +1,98 @@
+ 
+ .header{
+    height: 32px;
+    padding: 1rem;
+    color: var(--primary);
+ }
+ 
+ 
+ 
+ .icons img{
+    width: 16px;
+    height: 16px;
+    filter: brightness(400%);
+}
+.icons{
+    display: flex;
+    gap: 1rem;
+    justify-content: flex-end;
+    align-items: left;
+    padding-right: 3rem;
+}
+
+.icons li{
+    list-style-type: none;
+}
+.nav{
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    margin-left: 12rem;
+
+}
+
+.nav li{
+    list-style-type: none;
+}
+.nav li a{
+    color: var(--primary);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 13px;
+    letter-spacing: 2.6px;
+}
+.nav img{
+    width: 28px;
+    height: 28px;
+    filter: invert();
+}
+
+.menu {
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 6rem;
+margin-top: 2rem;;
+    
+}
+
+
+.menu img{
+    width: 28px;
+    height: 28px;
+    filter: invert();
+
+}
+.menu h1{
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: 700;
+
+}
+.user {
+    display: flex;
+    gap:1.5rem
+}
+
+.hero{
+    height: 750px;
+    margin-top: 0.5rem;
+    
+}
+
+.hero img{
+    width: 100%;
+    animation: zoomBanner 3s;
+    height: 100%;
+    
+}
+
+@keyframes zoomBanner{
+    from{
+        transform: scale(2);
+    }
+    to{
+        transform: scale(1);
+    }
+}
