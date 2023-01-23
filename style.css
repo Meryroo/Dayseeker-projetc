@@ -2,3 +2,7 @@
 @import url(./STYLES/UTILS/_reset.css);
 @import url(./STYLES/UTILS/_global.css);
 @import url(./STYLES/UTILS/_header.css);
+@import url(./STYLES/UTILS/_main.css);
+@import url(./STYLES/UTILS/_button.css);
+@import url(./STYLES/UTILS/_video.css);
+@import url(./STYLES/UTILS/_footer.css);

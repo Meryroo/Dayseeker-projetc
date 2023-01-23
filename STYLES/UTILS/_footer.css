@@ -1,0 +1,53 @@
+.media_icons li img{
+    width: 24px;
+    height: 24px;
+    filter: brightness(400%);
+}
+
+footer{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    gap: 15rem;
+    padding-right: 200px;
+    padding-top: 4rem;
+    margin-bottom: 60px;
+    
+}
+
+
+.email h4{
+    font-size: 12px;
+    font-weight: 100;
+    letter-spacing: 3.6px;
+}
+
+.email p{
+    font-size: 13.6px;
+    font-weight: 100;
+    letter-spacing: 0.4px;
+    margin-top: 2rem;
+}
+
+.media_icons{
+    display: flex;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+.email input{
+   border-bottom: 1px solid white;
+   width: 100%;
+   margin-top: 2rem;
+}
+
+h3{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 100;
+    margin-bottom: 2rem
+}
+
+
+

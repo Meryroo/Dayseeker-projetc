@@ -56,7 +56,7 @@ const printProducts = (list) =>{
   for(const item of list){
     container.innerHTML +=`
     <figure>
-    <img src= ${item.image} alt=${title.image}/>
+    <img src= ${item.image} alt=${item.image}/>
     <h3>${item.title}</h3>
     <h4> $${item.price}</h4> 
     </figure>
