@@ -1,5 +1,7 @@
 hmtl{
     scroll-behavior: smooth;
+    
+    
 }
 
 body{
@@ -7,23 +9,33 @@ body{
     color: var(--primary);
     font-family: Helvetica, sans-serif;
     
+    
+    
    
 }
 
 main{
     height: 900px;
 }
-h2, h4{
+h1, h2, h4{
     text-transform: uppercase;
 }
 
 input{
     background-color: var(--background);
     border: none;
+    color: var(--primary);
 }
 input::placeholder{
     color: var(--primary)
 }
 li{
     list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    color: var(--primary);
+    text-transform: uppercase;
+    letter-spacing: 2.6px;
 }

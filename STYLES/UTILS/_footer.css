@@ -7,11 +7,31 @@
 footer{
     display: flex;
     justify-content: right;
-    align-items: center;
+    align-items: top;
     gap: 15rem;
     padding-right: 200px;
     padding-top: 4rem;
     margin-bottom: 60px;
+    background-image: url("https://res.cloudinary.com/dfnh5hecu/image/upload/v1674466529/Dayseeker/background_k36qdk.webp");
+    background-size: cover;
+    width: 100%;
+    
+}
+
+@media screen and (max-width:1100px) {
+    footer{
+       padding: 2rem;
+       flex-wrap: wrap;
+       flex-direction: column;
+       justify-content: flex-start;
+       gap: 2rem;
+       align-items: flex-start;
+       
+    }
+    .email h4{
+    justify-content: flex-start;
+    }
+    
     
 }
 
@@ -20,6 +40,8 @@ footer{
     font-size: 12px;
     font-weight: 100;
     letter-spacing: 3.6px;
+    justify-content: flex-start;
+    
 }
 
 .email p{
@@ -36,9 +58,9 @@ footer{
 }
 
 .email input{
-   border-bottom: 1px solid white;
-   width: 100%;
+  
    margin-top: 2rem;
+   
 }
 
 h3{
@@ -48,6 +70,13 @@ h3{
     font-weight: 100;
     margin-bottom: 2rem
 }
+h4{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+    font-weight: 100;
+    font-size: 13px;
+}
 
 
-
+  
